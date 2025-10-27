@@ -1,7 +1,7 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Athena O'Brien
 */
 /* -------------------------------------------------- */
 /* 
@@ -337,6 +337,13 @@ footer{
 
 /* For the first link in this section: */
 #section2 a:first-of-type{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: -6px 6px 10px var(--med-gray);
     background-color: var(--lt-blue);
     color: var(--dk-gray);
     padding: 16px;
