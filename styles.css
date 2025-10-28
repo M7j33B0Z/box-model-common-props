@@ -447,6 +447,8 @@ display: block;
     display: block;
     width: 200px;
     height: auto;
+    margin: 0 auto;
+    box-shadow: var(--filter-shadow-sm);
 }
 
 #section3 div::before{
