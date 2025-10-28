@@ -334,16 +334,19 @@ footer{
         - add the large box shadow
 */
 /* ADD SELECTOR AND STYLES HERE */
-
-/* For the first link in this section: */
-#section2 a:first-of-type{
-    display: block;
+#section2 a {
+display: block;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
     width: 50%;
     box-shadow: -6px 6px 10px var(--med-gray);
+}
+
+/* For the first link in this section: */
+#section2 a:first-of-type{
+    
     background-color: var(--lt-blue);
     color: var(--dk-gray);
     padding: 16px;
@@ -384,6 +387,18 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
+    background-color: var(--dk-teal-rgba);
+    border: 4px;
+    border-style: dashed;
+    border-color: var(--dk-gray-rgba);
+    margin-top: 16px;
+    margin-right: 60px;
+    margin-bottom: 32px;
+    margin-left: 8px;
+    padding-top: 32px;
+    padding-right: 8px;
+    padding-bottom: 16px;
+    padding-left: 60px;
     
 }
 
@@ -401,6 +416,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
+    background-color: var(--dk-blue-rgba);
+    color: var(--white);
+    border-color: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
@@ -425,7 +444,9 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
-    
+    display: block;
+    width: 200px;
+    height: auto;
 }
 
 #section3 div::before{
