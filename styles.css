@@ -490,6 +490,17 @@ display: block;
         - move this to the right from its original location by 25px
 */
 #section3 div::after{
+    /* string goes here*/
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--lt-blue);
+    turn this square div into a circle
+    position: relative;
+    z-index: 2;
+
+    
+    
 }
 
 
@@ -511,6 +522,10 @@ display: block;
             - left: 0
 */
 #section4 p:last-of-type{
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
 
 }
 
@@ -548,6 +563,9 @@ display: block;
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+   background: var(--lt-blue) center repeat url(images/puppy-photo.jpg);
+ 
+
     
 }
 
@@ -575,7 +593,9 @@ display: block;
         - add the wood background texture from the images folder
 */
 #pattern1{
-    
+    background-color: var(--light-gray);
+    background-image: scale 110%;
+    background-image: url(images/wood.png);
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -632,6 +652,7 @@ display: block;
         - float the image to the right
 */
 #dog-house{
+    float: right;
     
 }
 
@@ -641,7 +662,7 @@ display: block;
         - clear any floats
 */
 #section9{
-    
+    float: clear;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
