@@ -335,13 +335,13 @@ footer{
 */
 /* ADD SELECTOR AND STYLES HERE */
 #section2 a {
-display: block;
+    display: block;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
     width: 50%;
-    box-shadow: -6px 6px 10px var(--med-gray);
+    box-shadow: var(--box-shadow-lg);
 }
 
 /* For the first link in this section: */
@@ -448,7 +448,7 @@ display: block;
     width: 200px;
     height: auto;
     margin: 0 auto;
-    gfg--shadow: var(--filter-shadow-sm);
+    filter: var(--filter-shadow-sm);
 }
 
 #section3 div::before{
@@ -597,7 +597,7 @@ display: block;
 */
 #pattern1{
     background-color: var(--light-gray);
-    SCALE BACKGROUND IMAGE
+    background-size: 110%;
     background-image: url(images/wood.png);
     
 }
